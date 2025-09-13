@@ -1,6 +1,9 @@
-# Sitemind MVP
+# Sitemind
 
-Local, free MVP for ingesting a website, building a knowledge base (FAISS or NumPy fallback), generating strategies (rule-based for MVP), chatting over the KB, and exporting results.
+<img width="1023" height="605" alt="Screenshot 2025-09-13 at 1 51 40 PM" src="https://github.com/user-attachments/assets/7dd78ae9-1a61-424e-a9d6-d5827ecb8303" />
+
+
+Local platform for ingesting a website, building a knowledge base (FAISS or NumPy fallback), generating strategies (rule-based for MVP), chatting over the KB, and exporting results.
 
 ## Quickstart
 
@@ -23,6 +26,7 @@ pip install -r requirements.txt
 ```
 
 3. Run the Streamlit app
+
 
 ```bash
 streamlit run app/main.py
