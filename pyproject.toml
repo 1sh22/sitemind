@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "sitemind"
+version = "0.1.0"
+description = "MVP: ingest websites, build KB, generate strategies, chat, export"
+authors = ["Ishaan <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.115.0"
+uvicorn = {extras = ["standard"], version = "^0.30.6"}
+beautifulsoup4 = "^4.12.3"
+requests = "^2.32.3"
+tenacity = "^9.0.0"
+sentence-transformers = "^3.0.1"
+faiss-cpu = "^1.8.0.post1"
+streamlit = "^1.38.0"
+sqlitedict = "^2.1.0"
+langchain = "^0.2.12"
+langchain-community = "^0.2.11"
+langchain-core = "^0.2.26"
+langchain-text-splitters = "^0.2.2"
+bs4 = "^0.0.2"
+python-dotenv = "^1.0.1"
+numpy = "^1.26.4"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
